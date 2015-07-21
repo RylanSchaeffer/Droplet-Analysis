@@ -17,7 +17,7 @@
 
 %edge detection
 
-BW = rgb2gray(imread('/media/rylan/Windows8_OS/Users/Rylan/193/simulated images/Image Sequence 5/frame-0207.tif'));
+BW = rgb2gray(imread('/media/rylan/Windows8_OS/Users/Rylan/Documents/193/simulated images/Image Sequence 5/frame-0207.tif'));
 imshow(BW);
 
 CC = bwconncomp(BW);
